@@ -1,0 +1,50 @@
+/* element selector */
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZsjjeMucYt3Dp7gESKHd50cl4_SjHniORg&usqp=CAU);
+}
+h1 {
+    color: rgb(125, 62, 187);
+}
+
+/* id selcector */
+#judul {
+    background-color: black;
+    font-weight: 800;
+    text-align: center;
+
+}
+.sub-judul{
+    color:blue;
+    text-shadow: 5px 3px 5px red;
+}
+
+.content {
+    font-style: italic;
+    color: rgb(20, 164, 20);
+}
+    /* multiple selector */
+.p1, .p3 {
+    color: blueviolet;
+}
+
+.link:hover {
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.box {
+    
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 10px ;
+}
+.box, .kontent {
+    border: 1px solid blue;
+    background-color: green;
+
+}
+.box p{
+    color: black;
+}
+
